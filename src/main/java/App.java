@@ -19,7 +19,7 @@ public class App {
 
         Document html = Jsoup.connect(URLen).get();
         HTMLDocumentIterator iterator = new InOrderIterator();
-        PDFBoxProcessor processor = new PDFBoxProcessor();
+        PDFProcessor processor = new PDFBoxProcessor();
         processor.createFile("TestPdfExport.pdf");
         iterator.iterate(html,processor);
         processor.save();
