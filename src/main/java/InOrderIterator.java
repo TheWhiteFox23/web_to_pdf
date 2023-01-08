@@ -1,6 +1,9 @@
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
 
+/**
+ * Iterator used to in order iteration through the JSoup Documet
+ */
 public class InOrderIterator implements HTMLDocumentIterator{
     @Override
     public void iterate(Document document, Processor processor) {

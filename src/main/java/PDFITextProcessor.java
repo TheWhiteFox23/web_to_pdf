@@ -6,12 +6,15 @@ import org.jsoup.nodes.Node;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
-public class PDFBoxProcessor implements PDFProcessor{
+/**
+ * PDFProcessor based on the IText library
+ */
+public class PDFITextProcessor implements PDFProcessor{
     private Document document;
     private String font;
     private BaseColor baseColor;
 
-    public PDFBoxProcessor() {
+    public PDFITextProcessor() {
         this.font = FontFactory.TIMES_ROMAN;
         this.baseColor = BaseColor.BLACK;
     }
