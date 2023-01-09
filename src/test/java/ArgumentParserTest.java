@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 
-
 class ArgumentParserTest {
     private ArgumentParser argumentParser;
 
