@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 /**
- * PDFProcessor based on the IText library
+ * cz.whitefox.webtopdf.PDFProcessor based on the IText library
  */
 public class PDFITextProcessor implements PDFProcessor{
     private Document document;

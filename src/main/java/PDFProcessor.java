@@ -1,4 +1,3 @@
-import com.itextpdf.text.DocumentException;
 import org.jsoup.nodes.Node;
 
 import java.io.FileNotFoundException;
